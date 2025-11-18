@@ -1,2 +1,3 @@
-/.venv
-/.ruff_cache
+.pycache*
+.venv*
+*.ruff_cache
