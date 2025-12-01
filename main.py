@@ -45,4 +45,5 @@ def main() -> None:
         email("There is an issue with the BCP file, speak with the data team!")
 
 
-main()
+if __name__ == "__main__":
+    main()
