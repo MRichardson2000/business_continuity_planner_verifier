@@ -33,9 +33,10 @@ Then set up a schedule task to run once a week on your chosen day and time that 
 
 This will:
 
-Read the file on the K drive.
+Read the file on the file server.
 Check the date to ensure it's today
 Send an email to the helpdesk with the status of either everything's fine or we need to contact the data team to identify the issue
+
 ✉️ Email Setup
 The script uses win32com.client to send emails via Outlook. The recipient is currently set to:
 mail.To = "EmailAddressHere"
